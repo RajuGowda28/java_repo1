@@ -8,7 +8,7 @@ pipeline {
                 git 'https://github.com/Sreedevi28/java_repo1.git'
             }
         }
-        stage('Build') {
+        stage('Build stage') {
             steps {
                  sh 'mvn install'
             }
